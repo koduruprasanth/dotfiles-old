@@ -1,0 +1,42 @@
+{
+  "after-scripts": [
+    "brew linkapps"
+  ],
+  "casks": [
+    "alfred",
+    "atom",
+    "betterzipql",
+    "caffeine",
+    "dash",
+    "emacs",
+    "evernote",
+    "firefox",
+    "ghc",
+    "google-chrome",
+    "google-drive",
+    "iterm2",
+    "java",
+    "lastpass",
+    "mplayerx"
+    "qlcolorcode",
+    "qlimagesize"
+    "qlmarkdown",
+    "qlstephen",
+    "quicklook-csv",
+    "quicklook-json",
+    "real-vnc",
+    "shiftit",
+    "vlc",
+  ],
+  "formulas": [
+    "awscli",
+    "caskroom/cask/brew-cask",
+    "git",
+    "macvim --overwrite-system-vi"
+    "python",
+    "python3",
+    "tmux",
+    "wget",
+    "youtube-dl"
+  ]
+}
