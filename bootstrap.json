@@ -17,22 +17,22 @@
     "iterm2",
     "java",
     "lastpass",
-    "mplayerx"
+    "mplayerx",
     "qlcolorcode",
-    "qlimagesize"
+    "qlimagesize",
     "qlmarkdown",
     "qlstephen",
     "quicklook-csv",
     "quicklook-json",
     "real-vnc",
     "shiftit",
-    "vlc",
+    "vlc"
   ],
   "formulas": [
     "awscli",
     "caskroom/cask/brew-cask",
     "git",
-    "macvim --overwrite-system-vi"
+    "macvim --overwrite-system-vi",
     "python",
     "python3",
     "tmux",
