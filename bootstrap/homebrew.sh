@@ -1,0 +1,93 @@
+#!/usr/bin/env bash
+
+#http://www.tldp.org/LDP/abs/html/options.html
+set -eu
+
+formulas=(
+  awscli
+  caskroom/cask/brew-cask
+  coreutils
+  findutils
+  git
+  mackup
+  python
+  python3
+  tmux
+  wget
+  youtube-dl
+)
+
+apps=(
+  alfred
+  atom
+  betterzipql
+  caffeine
+  dash
+  emacs
+  evernote
+  firefox
+  flux
+  ghc
+  google-chrome
+  google-drive
+  iterm2
+  java
+  lastpass
+  mplayerx
+  qlcolorcode
+  qlimagesize
+  qlmarkdown
+  qlstephen
+  quicklook-csv
+  quicklook-json
+  real-vnc
+  shiftit
+  vlc
+)
+
+# fonts https://github.com/caskroom/homebrew-fonts/tree/master/Casks
+fonts=(
+  font-clear-sans
+  font-m-plus
+  font-roboto
+)
+
+taps=(
+  caskroom/fonts
+)
+
+# Check for Homebrew,
+# Install if we don't have it
+homebrew_install() {
+if test ! $(which brew); then
+  echo "Installing homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+  echo "Homebrew already installed !"
+fi
+}
+
+homebrew_tap() {
+  brew tap ${taps[@]}
+}
+
+homebrew_install_formulae() {
+  echo "Installing formulas..."
+  brew install ${formulas[@]}
+}
+
+homebrew_install_apps() {
+  echo "Installing applications..."
+  brew cask install ${apps[@]}
+}
+
+homebrew_install_fonts() {
+  echo "Installing fonts..."
+  brew cask install ${fonts[@]}
+}
+
+homebrew_install
+homebrew_tap
+homebrew_install_formulae
+homebrew_install_apps
+homebrew_install_fonts
