@@ -1,0 +1,46 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="analytics-dashboard" values="DEFAULT" collectionTime="1442867263716" />
+    </group>
+    <group name="frameworks">
+      <project id="analytics-dashboard" values="web,Spring" collectionTime="1442867263549" />
+    </group>
+    <group name="vcs">
+      <project id="analytics-dashboard" values="Git" collectionTime="1442867263548" />
+    </group>
+    <group name="file-type">
+      <project id="analytics-dashboard" values="Eclipse,Scala,IDEA_MODULE,HTML,Git file,ARCHIVE,CSS,JavaScript,PLAIN_TEXT,BrazilLanguage,Properties,JSP,Native,UNKNOWN,JAVA,XML,JSON" collectionTime="1442867263698" />
+    </group>
+    <group name="module type">
+      <project id="analytics-dashboard" values="JAVA_MODULE" collectionTime="1442867263549" />
+    </group>
+    <group name="spring">
+      <project id="analytics-dashboard" values="fileset_configFiles5,xmlNS_www.springframework.org/schema/mvc,fileset_configFiles5,xmlNS_www.springframework.org/schema/context,fileset_annotationContext,fileset_mixedContext" collectionTime="1442867263721" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="analytics-dashboard" values="Project,Project" collectionTime="1442867263716" />
+    </group>
+    <group name="libraries">
+      <project id="analytics-dashboard" values="spring,JMS,spring-security,TransactionJavaee,CDI" collectionTime="1442867263704" />
+    </group>
+    <group name="language-level">
+      <project id="analytics-dashboard" values="JDK_1_8" collectionTime="1442867263711" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ide.settings.BrazilPath_Resolver" count="1" />
+      <entry feature="ide.settings.Custom_Plugin_Repositories" count="2" />
+      <entry feature="ide.settings.Plugins" count="1" />
+      <entry feature="ide.settings.Project_Structure" count="3" />
+      <entry feature="ideaapp.started" count="5" />
+      <entry feature="scala.file.with.type.aware.annotated" count="1" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.java" count="6" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="4" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Documentation" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Plugins" count="1" />
+    </counts>
+  </component>
+</application>

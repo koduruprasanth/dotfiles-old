@@ -5,6 +5,7 @@ set -eu
 
 formulas=(
   awscli
+  bash
   caskroom/cask/brew-cask
   coreutils
   findutils
@@ -15,11 +16,13 @@ formulas=(
   tmux
   wget
   youtube-dl
+  #unison
 )
 
 apps=(
   alfred
   atom
+  android-studio
   betterzipql
   caffeine
   dash
@@ -32,6 +35,7 @@ apps=(
   google-drive
   iterm2
   java
+  java7
   lastpass
   mplayerx
   qlcolorcode
@@ -41,6 +45,7 @@ apps=(
   quicklook-csv
   quicklook-json
   real-vnc
+  rescuetime
   shiftit
   vlc
 )
@@ -53,6 +58,7 @@ fonts=(
 )
 
 taps=(
+  caskroom/versions
   caskroom/fonts
 )
 
@@ -86,8 +92,14 @@ homebrew_install_fonts() {
   brew cask install ${fonts[@]}
 }
 
+homebrew_cleanup() {
+  echo "Running brew cleanup..."
+  brew cleanup
+}
+
 homebrew_install
 homebrew_tap
 homebrew_install_formulae
 homebrew_install_apps
 homebrew_install_fonts
+homebrew_cleanup

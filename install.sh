@@ -7,4 +7,4 @@ dirname=$(dirname $(realpath $0))
 echo "dirname = $dirname"
 
 sh $dirname/bootstrap/homebrew.sh
-sh $dirname/bootstrap/bootstrap.sh
+sh $dirname/bootstrap/mackup.sh

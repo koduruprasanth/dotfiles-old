@@ -1,0 +1,31 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="CSAppAPK" values="Git" collectionTime="1442604433497" />
+    </group>
+    <group name="file-type">
+      <project id="CSAppAPK" values="IDEA_MODULE,HTML,Manifest,JavaScript,XML,Properties,AIDL,Native,CSS,CLASS,ProGuard File,ARCHIVE,UNKNOWN,JAVA,Perl,ObjectiveC,Groovy,Android RenderScript,JSON,Images,PLAIN_TEXT" collectionTime="1442604433597" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="CSAppAPK" values="AndroidRunConfigurationType" collectionTime="1442604433502" />
+    </group>
+    <group name="language-level">
+      <project id="CSAppAPK" values="JDK_1_7" collectionTime="1442604433672" />
+    </group>
+    <group name="frameworks">
+      <project id="CSAppAPK" values="android,android-gradle" collectionTime="1442604433499" />
+    </group>
+    <group name="module type">
+      <project id="CSAppAPK" values="JAVA_MODULE" collectionTime="1442604433499" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ide.help.top" count="2" />
+      <entry feature="ide.settings.Appearance" count="3" />
+      <entry feature="ide.settings.Keymap" count="1" />
+      <entry feature="ide.settings.Project_Structure" count="2" />
+      <entry feature="ideaapp.started" count="4" />
+    </counts>
+  </component>
+</application>
