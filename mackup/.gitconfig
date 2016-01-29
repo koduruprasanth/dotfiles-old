@@ -4,6 +4,7 @@
   user = Prasanth Koduru
 	email = koduruprasanth@gmail.com
 	pager = less -FMRiX
+	excludesfile = ~/.gitignore
 [user]
 	email = prasantk@amazon.com
 	name = Koduru
