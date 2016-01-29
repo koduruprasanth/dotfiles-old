@@ -4,62 +4,59 @@
 set -eu
 
 formulas=(
-  awscli
+  android-sdk
+  #awscli
   bash
   caskroom/cask/brew-cask
   coreutils
   findutils
   git
   mackup
-  python
-  python3
+  #python
+  #python3
   tmux
-  wget
-  youtube-dl
   #unison
+  wget
+  #youtube-dl
 )
 
 apps=(
+  1password
   alfred
   atom
   android-studio
-  betterzipql
+  #betterzipql
   caffeine
   dash
-  emacs
+  dropbox
+  #emacs
   evernote
   firefox
   flux
-  ghc
+  #ghc
   google-chrome
   google-drive
   iterm2
   java
   java7
-  lastpass
-  mplayerx
-  qlcolorcode
-  qlimagesize
-  qlmarkdown
-  qlstephen
-  quicklook-csv
-  quicklook-json
-  real-vnc
-  rescuetime
+  #lastpass
+  #mplayerx
+  #qlcolorcode
+  #qlimagesize
+  #qlmarkdown
+  #qlstephen
+  #quicklook-csv
+  #quicklook-json
+  #real-vnc
+  #rescuetime
   shiftit
+  tcl
   vlc
-)
-
-# fonts https://github.com/caskroom/homebrew-fonts/tree/master/Casks
-fonts=(
-  font-clear-sans
-  font-m-plus
-  font-roboto
 )
 
 taps=(
   caskroom/versions
-  caskroom/fonts
+  #caskroom/fonts
 )
 
 # Check for Homebrew,
@@ -101,5 +98,5 @@ homebrew_install
 homebrew_tap
 homebrew_install_formulae
 homebrew_install_apps
-homebrew_install_fonts
+#homebrew_install_fonts
 homebrew_cleanup

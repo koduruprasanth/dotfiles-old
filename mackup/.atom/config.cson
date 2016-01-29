@@ -1,15 +1,5 @@
 "*":
   "exception-reporting":
-    userId: "01cb65d0-9fde-8166-a9cf-b48bc4718039"
+    userId: "77728378-6e6c-1e93-738b-b02360d37d1f"
   welcome:
     showOnStartup: false
-  core:
-    packagesWithKeymapsDisabled: []
-    disabledPackages: [
-      "vim-mode"
-    ]
-  editor:
-    invisibles: {}
-  "atom-beautify": {}
-  react: {}
-  "vim-mode": {}

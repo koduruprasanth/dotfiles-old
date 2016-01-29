@@ -1,7 +1,0 @@
-<application>
-  <component name="UpdatesConfigurable">
-    <pluginHosts>
-      <item value="https://improvement-ninjas.amazon.com/s3files/s3get.cgi/intellij-14-plugins.xml" />
-    </pluginHosts>
-  </component>
-</application>
