@@ -49,7 +49,20 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew brew-cask common-aliases tmux)
+plugins=(git
+ git-extras
+ git-prompt
+ gitfast
+ gi
+ gradle
+ brew
+ brew-cask
+ common-aliases
+ osx
+ tmux
+ adb
+ zsh_reload
+ extract)
 
 # User configuration
 
@@ -82,7 +95,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="atom ~/.zshrc"
 alias ohmyzsh="atom ~/.oh-my-zsh"
-alias reload-zsh="source ~/.zshrc"
 
 alias desktop4="ssh prasantk-4.desktop.amazon.com"
 alias desktop5="ssh prasantk-5.desktop.amazon.com"

@@ -11,6 +11,7 @@ formulas=(
   coreutils
   findutils
   git
+  gradle
   mackup
   #python
   #python3
