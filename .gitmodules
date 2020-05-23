@@ -1,3 +1,0 @@
-[submodule "mackup/.oh-my-zsh"]
-	path = mackup/.oh-my-zsh
-	url = https://github.com/robbyrussell/oh-my-zsh.git
