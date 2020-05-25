@@ -8,6 +8,7 @@ formulas=(
   #bash
   coreutils
   findutils
+  fzf
   git
   mackup
   mas
@@ -15,6 +16,7 @@ formulas=(
   #python3
   tmux
   wget
+  zplug
 )
 
 apps=(
