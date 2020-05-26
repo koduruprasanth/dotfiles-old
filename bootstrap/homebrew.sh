@@ -16,6 +16,7 @@ formulas=(
   #python3
   tmux
   wget
+  yadm
   zplug
 )
 
